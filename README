@@ -1,6 +1,6 @@
 makedarks.sh
 
-A shell script to help build a dark library with images of varying temperatures. This runs on raspberry pis, and also on the mac command line. You will need installed:
+A shell script to help build a dark library with images of varying temperatures. This runs on Raspberry Pis, and also on the Mac command line. You will need to install:
 
 gphoto2
 exiftool
@@ -9,13 +9,11 @@ I assume it will work on all Linux systems. I have not tried it on Windows WSL, 
 
 Setup:
 
-Make sure gphoto2 works with your camera and install. I wrote this to use with my Canon T6i. That camera was pretty
-particular about which gphoto2 commands worked and which didn't. Your camera may need different commands. If so, feel free to 
-fork.
+Make sure gphoto2 works with your camera and install. I wrote this to use with my Canon T6i. That camera was pretty particular about which gphoto2 commands worked and which didn't. Your camera may need different commands. If so, feel free to fork.
 
 IMPORTANT: You will need to change the BASE_DIR variable to put the images where you want them to be.
 
-VERY IMPORTANT: I would suggest that you do this with an empty camera storage. This script will DELETE ALL IMAGES on your camera storage as it is going along. Back up your camera storage before using this script.
+VERY IMPORTANT: I would suggest that you do this with an empty camera storage. This script will DELETE ALL IMAGES on your camera storage as it goes along. Back up your camera storage before using this script.
 
 Usage:
 
